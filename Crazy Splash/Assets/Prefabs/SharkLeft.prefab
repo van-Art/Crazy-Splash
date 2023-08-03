@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2658562528296666543}
   - component: {fileID: 1858559952084845673}
   - component: {fileID: 2039493790812409674}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: SharkLeft
   m_TagString: Shark
   m_Icon: {fileID: 0}
@@ -146,4 +146,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 087fb799f4b3d464aa2a4f3fbfd2a724, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 7

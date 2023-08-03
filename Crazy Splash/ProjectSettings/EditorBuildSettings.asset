@@ -4,6 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: bd8092e3d1b90ca48a9acf5bcfde1ee4
+  - enabled: 1
+    path: Assets/Scenes/DuckSoup.unity
+    guid: 6d762a7319c67904c9d07fdc2ec5ad67
   m_configObjects:
-    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: ad2ea172df2928d43b91efc2ce8c951c, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 9535178735191764f8e0786bf20756f9, type: 2}

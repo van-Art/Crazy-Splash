@@ -1038,7 +1038,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5168188134723010957}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Background_1
   m_TagString: Background
   m_Icon: {fileID: 0}
