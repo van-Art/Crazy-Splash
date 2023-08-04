@@ -10,4 +10,5 @@ Start as a rubber duck, bounce back and forth to avoid killer sharks, collect co
 </br>
 
 ### GamePlay 🎮
-<h4>Comming Soon...</h4>
+
+![Crazy_Splash_GamePlay](https://github.com/van-Art/Crazy-Splash/assets/46049140/4abff45a-16f8-40df-a204-0458374711d0)
