@@ -5,7 +5,6 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public static Spawner instance;
-    public UIManager uiManager;
 
     public Transform[] points;
     public GameObject[] sharks;

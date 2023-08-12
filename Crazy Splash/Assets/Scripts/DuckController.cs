@@ -24,16 +24,22 @@ public class DuckController : MonoBehaviour
     [Space]
     [Header("UI Elements")]
     public TMP_Text score;
+    public TMP_Text coin;
 
     [Space]
     [Header("Variables")]
     [Range(3,10)]
     public int speed = 8;
     public int count;
+    public static int coinCount;
 
     void Awake()
     {
         instance = this;
+        if(!PlayerPrefs.HasKey("Coin"))
+        {
+            PlayerPrefs.SetInt("Coin", coinCount);
+        }
     }
     void Start()
     {
@@ -47,6 +53,9 @@ public class DuckController : MonoBehaviour
         rb.velocity = new Vector2(0, speed);
 
         score.text = "" + count;
+        coin.text = "" + coinCount;
+
+        coinCount = PlayerPrefs.GetInt("Coin");
 
         startPos = new Vector2(0, -3);
     }
@@ -77,7 +86,6 @@ public class DuckController : MonoBehaviour
             }
 
             rb.velocity = new Vector2(0, -speed);
-            //Debug.Log("Down");
         }
         else if(col.gameObject.CompareTag("BorderB"))
         {
@@ -87,12 +95,17 @@ public class DuckController : MonoBehaviour
             }
 
             rb.velocity = new Vector2(0, speed);
-            //Debug.Log("Up");
         }
+        //..............................
         if(col.gameObject.tag == "CoinB")
         {
             count = count + 1;
             score.text = "" + count;
+
+            coinCount = coinCount + 1;
+            coin.text = "" + coinCount;
+            //coin.text = coin.ToString();
+            PlayerPrefs.SetInt("Coin", coinCount);
 
             coinB.SetActive(false);
             coinT.SetActive(true);
@@ -103,12 +116,16 @@ public class DuckController : MonoBehaviour
             }
 
             rb.velocity = new Vector2(0, speed);
-            //Debug.Log("Up");
         }
         else if(col.gameObject.tag == "CoinT")
         {
             count = count + 1;
             score.text = "" + count;
+
+            coinCount = coinCount + 1;
+            coin.text = "" + coinCount;
+            //coin.text = coin.ToString();
+            PlayerPrefs.SetInt("Coin", coinCount);
 
             coinB.SetActive(true);
             coinT.SetActive(false);
@@ -119,13 +136,11 @@ public class DuckController : MonoBehaviour
             }
 
             rb.velocity = new Vector2(0, -speed);
-            //Debug.Log("Down");
         }
-        if(col.gameObject.CompareTag("Shark"))
+        //..............................
+        if (col.gameObject.CompareTag("Shark"))
         {
             this.gameObject.SetActive(false);
-            GameOverPanel.SetActive(true);
-
             UIManager.instance.StopAllCoroutines();
         }
     }
