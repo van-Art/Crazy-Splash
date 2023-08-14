@@ -707,7 +707,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2d8b2c9ef6efac47a480a908ad7b68f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiManager: {fileID: 1317518244}
   points:
   - {fileID: 383028184}
   - {fileID: 205836906}
