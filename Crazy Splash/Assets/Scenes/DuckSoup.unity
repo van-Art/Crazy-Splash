@@ -1446,6 +1446,7 @@ MonoBehaviour:
   coin: {fileID: 289225874}
   speed: 8
   count: 0
+  coinCount: 0
 --- !u!1 &1071049110
 GameObject:
   m_ObjectHideFlags: 0

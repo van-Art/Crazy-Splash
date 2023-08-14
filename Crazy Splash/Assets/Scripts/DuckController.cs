@@ -53,9 +53,9 @@ public class DuckController : MonoBehaviour
         rb.velocity = new Vector2(0, speed);
 
         score.text = "" + count;
-        coin.text = "" + coinCount;
 
         coinCount = PlayerPrefs.GetInt("Coin");
+        coin.text = "" + coinCount;
 
         startPos = new Vector2(0, -3);
     }
