@@ -10,8 +10,9 @@ public class AudioController : MonoBehaviour
     public AudioSource audioSrc;
     public AudioSource musicSrc;
     public AudioClip[] clips;
+    public AudioClip[] audioClips;
 
-    public bool isPlaying;
+    bool isPlaying;
 
     void Awake()
     {
@@ -38,8 +39,20 @@ public class AudioController : MonoBehaviour
             musicSrc.Play();
         }
     }
-    public void AudioPlay()
+    public void AudioPlay(AudioSource newAudioSrc)
     {
-        audioSrc.Play();
+        if(isPlaying)
+        {
+            audioSrc.clip = audioClips[Random.Range(0, audioClips.Length - 1)];
+            audioSrc.Play();
+        }
+    }
+    public void TouchAudio(AudioSource touchAudioSrc)
+    {
+        if(isPlaying)
+        {
+            audioSrc.clip = audioClips[2];
+            audioSrc.Play();
+        }    
     }
 }

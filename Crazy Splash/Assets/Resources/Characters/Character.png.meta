@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d750918adbfc1ce4ab9bca5ccd5af4f8
+guid: 459bca82a2277dc4dbd1c5a0a781762a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,148 +117,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Buttons_0
+      name: WarlusToBot
       rect:
         serializedVersion: 2
-        x: 274
-        y: 2487
-        width: 1761
-        height: 743
+        x: 93
+        y: 637
+        width: 162
+        height: 166
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 306fc105dc26a6a459ab8e163550da49
-      internalID: 1119494232
+      spriteID: 36608e52e2bc5db4ba9855b3a56b1e1e
+      internalID: -2104081412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buttons_1
+      name: GreenDuckToBot
       rect:
         serializedVersion: 2
-        x: 274
-        y: 1561
-        width: 1761
-        height: 828
+        x: 326
+        y: 659
+        width: 163
+        height: 165
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff6121b3dddbfbb44ba46aaddb353b37
-      internalID: 1276831047
+      spriteID: 74878ae740ba88949b72fb1cfb3a0f01
+      internalID: -222171619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buttons_2
+      name: WarlusToTop
       rect:
         serializedVersion: 2
-        x: 0
-        y: 803
-        width: 643
-        height: 645
+        x: 93
+        y: 482
+        width: 162
+        height: 129
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a28e55f66753e824485e2cdd55f30338
-      internalID: 834217877
+      spriteID: ae93960c2df257843bc5c67e1ea2db0f
+      internalID: -987658618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buttons_3
+      name: GreenDuckToTop
       rect:
         serializedVersion: 2
-        x: 749
-        y: 808
-        width: 645
-        height: 645
+        x: 326
+        y: 457
+        width: 162
+        height: 163
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6db97ac0cd317204fab4a2ed20048564
-      internalID: -2084528205
+      spriteID: ffb61620a04c3044991f8f794d710a65
+      internalID: -1969112360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buttons_4
+      name: PufferToBot
       rect:
         serializedVersion: 2
-        x: 1570
-        y: 812
-        width: 631
-        height: 631
+        x: 102
+        y: 264
+        width: 163
+        height: 138
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96a02e90a5b6fd54f8c27827fb52ddee
-      internalID: 630748259
+      spriteID: 5011d644f6e633d4ca7ee17cab39aa5c
+      internalID: -400386424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buttons_5
+      name: CrocoToBot
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3
-        width: 643
-        height: 699
+        x: 327
+        y: 245
+        width: 162
+        height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a4468b7d401eea45aaaaabcd3a04454
-      internalID: -515466019
+      spriteID: 882e9fedf222f184684c3e9d26c3660e
+      internalID: 67952283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buttons_6
+      name: PufferToTop
       rect:
         serializedVersion: 2
-        x: 749
-        y: 0
-        width: 645
-        height: 699
+        x: 99
+        y: 50
+        width: 170
+        height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbbe7695c1e901b4b8747736117cde4f
-      internalID: -1738395693
+      spriteID: bc5c3f4b8072c7a459633e367004eb01
+      internalID: -2034011215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrocoToTop
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 43
+        width: 162
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fde71e56150ab24f9392a8342b7c65b
+      internalID: 1599984852
       vertices: []
       indices: 
       edges: []
@@ -274,13 +295,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Buttons_0: 1119494232
-      Buttons_1: 1276831047
-      Buttons_2: 834217877
-      Buttons_3: -2084528205
-      Buttons_4: 630748259
-      Buttons_5: -515466019
-      Buttons_6: -1738395693
+      CrocoToBot: 67952283
+      CrocoToTop: 1599984852
+      GreenDuckToBot: -222171619
+      GreenDuckToTop: -1969112360
+      PufferToBot: -400386424
+      PufferToTop: -2034011215
+      WarlusToBot: -2104081412
+      WarlusToTop: -987658618
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

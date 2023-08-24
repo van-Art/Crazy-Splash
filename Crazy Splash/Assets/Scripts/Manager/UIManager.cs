@@ -20,6 +20,7 @@ public class UIManager : MonoBehaviour
     public GameObject Duck;
     public GameObject Score;
     public GameObject CoinCount;
+    public GameObject CoinImg;
     public GameObject GameOverPanel;
 
     private void Awake()
@@ -38,6 +39,7 @@ public class UIManager : MonoBehaviour
             Duck.transform.position = duckScript.startPos;
             GameOverPanel.SetActive(true);
             CoinCount.SetActive(false);
+            CoinImg.SetActive(false);
             Score.SetActive(false);
         }
     }

@@ -7,13 +7,15 @@ public class DuckController : MonoBehaviour
 {
     public static DuckController instance;
 
-    public Vector2 startPos;
-    Rigidbody2D rb;
+    //AddSkinsComp addSkin;
 
-    [Header("Sprites")]
-    SpriteRenderer rend;
-    public Sprite DuckTopSide;
-    public Sprite DuckBotSide;
+    public Vector2 startPos;
+    public Rigidbody2D rb;
+
+    //[Header("Sprites")]
+    //SpriteRenderer rend;
+    //public Sprite DuckTopSide;
+    //public Sprite DuckBotSide;
 
     [Space]
     [Header("GameObjects")]
@@ -43,11 +45,9 @@ public class DuckController : MonoBehaviour
     }
     void Start()
     {
-        rend = GetComponent<SpriteRenderer>();
+        //addSkin = GetComponent<AddSkinsComp>();
 
-        DuckBotSide = Resources.Load<Sprite>("DuckToBot");
-        DuckTopSide = Resources.Load<Sprite>("DuckToTop");
-        rend.sprite = DuckTopSide;
+        //rend = GetComponent<SpriteRenderer>();
 
         rb = GetComponent<Rigidbody2D>();
         rb.velocity = new Vector2(0, speed);
@@ -61,79 +61,48 @@ public class DuckController : MonoBehaviour
     }
     void Update()
     {
-        Debug.Log(rb.velocity);
-        if (Input.GetMouseButtonDown(0))
-        {
-            if (rend.sprite == DuckBotSide)
-            {
-                rend.sprite = DuckTopSide;
-                rb.velocity = new Vector2(0, speed);
-            }
-            else if (rend.sprite == DuckTopSide)
-            {
-                rend.sprite = DuckBotSide;
-                rb.velocity = new Vector2(0, -speed);
-            }
-        }
+
     }
     void OnCollisionEnter2D(Collision2D col)
     {
         if(col.gameObject.CompareTag("BorderT"))
         {
-            if (rend.sprite == DuckTopSide)
-            {
-                rend.sprite = DuckBotSide;
-            }
-
             rb.velocity = new Vector2(0, -speed);
+            AudioController.instance.AudioPlay(AudioController.instance.audioSrc);
         }
         else if(col.gameObject.CompareTag("BorderB"))
         {
-            if (rend.sprite == DuckBotSide)
-            {
-                rend.sprite = DuckTopSide;
-            }
-
             rb.velocity = new Vector2(0, speed);
+            AudioController.instance.AudioPlay(AudioController.instance.audioSrc);
         }
         //..............................
         if(col.gameObject.tag == "CoinB")
         {
+            AudioController.instance.AudioPlay(AudioController.instance.audioSrc);
             count = count + 1;
             score.text = "" + count;
 
             coinCount = coinCount + 1;
             coin.text = "" + coinCount;
-            //coin.text = coin.ToString();
             PlayerPrefs.SetInt("Coin", coinCount);
 
             coinB.SetActive(false);
             coinT.SetActive(true);
 
-            if(rend.sprite == DuckBotSide)
-            {
-                rend.sprite = DuckTopSide;
-            }
-
             rb.velocity = new Vector2(0, speed);
         }
         else if(col.gameObject.tag == "CoinT")
         {
+            AudioController.instance.AudioPlay(AudioController.instance.audioSrc);
             count = count + 1;
             score.text = "" + count;
 
             coinCount = coinCount + 1;
             coin.text = "" + coinCount;
-            //coin.text = coin.ToString();
             PlayerPrefs.SetInt("Coin", coinCount);
 
             coinB.SetActive(true);
             coinT.SetActive(false);
-
-            if (rend.sprite == DuckTopSide)
-            {
-                rend.sprite = DuckBotSide;
-            }
 
             rb.velocity = new Vector2(0, -speed);
         }

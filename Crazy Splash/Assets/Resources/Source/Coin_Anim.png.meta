@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ad4fe20ff12f978449b7f2b52a171cbe
+guid: ad47e5477bc1c8a45a7bb5c115dcc79c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 2048
+  spritePixelsToUnits: 1500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 210104_Coins_Flip [Converted]_0
+      name: Coin_Anim_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1456
-        height: 1451
+        width: 1059
+        height: 1057
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,62 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49fbdf47a1ca91c439842e501ff4c4b3
-      internalID: -37499936
+      spriteID: eb16568e573b12440a36959e0008dd39
+      internalID: 327032363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 210104_Coins_Flip [Converted]_1
+      name: Coin_Anim_1
       rect:
         serializedVersion: 2
-        x: 1841
-        y: 5
-        width: 1344
-        height: 1441
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 063061ff2eb48c04e9d97fa75316899b
-      internalID: -651213951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 210104_Coins_Flip [Converted]_2
-      rect:
-        serializedVersion: 2
-        x: 3606
-        y: 5
-        width: 1110
-        height: 1441
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d3ba0ac1d7e6f54b8642f63208fb541
-      internalID: 924765441
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 210104_Coins_Flip [Converted]_3
-      rect:
-        serializedVersion: 2
-        x: 5346
+        x: 1345
         y: 0
-        width: 234
-        height: 1451
+        width: 967
+        height: 1057
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,62 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b4621e648ba0ee4fa3a5a4a81836566
-      internalID: -1712322399
+      spriteID: d78cadb9d5a82fb4db12a49f4adc54f8
+      internalID: 796596817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 210104_Coins_Flip [Converted]_4
+      name: Coin_Anim_2
       rect:
         serializedVersion: 2
-        x: 6210
-        y: 5
-        width: 1110
-        height: 1441
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aebaac1690b878047839ebf5e9b953c2
-      internalID: -1905691818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 210104_Coins_Flip [Converted]_5
-      rect:
-        serializedVersion: 2
-        x: 7741
-        y: 5
-        width: 1344
-        height: 1441
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d54573ab6afc46d4d842b7bb5b6d7570
-      internalID: 113130803
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 210104_Coins_Flip [Converted]_6
-      rect:
-        serializedVersion: 2
-        x: 9470
+        x: 2593
         y: 0
-        width: 1456
-        height: 1451
+        width: 801
+        height: 1057
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,8 +173,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bbef6d6e5253db469bb997dd39969d8
-      internalID: 761822310
+      spriteID: 857c6d335dcdcc14186da53e99ab61b0
+      internalID: 1356788145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Anim_3
+      rect:
+        serializedVersion: 2
+        x: 3856
+        y: 0
+        width: 178
+        height: 1057
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61128e74fac3449469128ddddf8e29c8
+      internalID: 235273362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Anim_4
+      rect:
+        serializedVersion: 2
+        x: 4484
+        y: 0
+        width: 798
+        height: 1057
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6e00bf6262b7f409feb815ec616346
+      internalID: -628967601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Anim_5
+      rect:
+        serializedVersion: 2
+        x: 5594
+        y: 0
+        width: 967
+        height: 1057
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1428b3535694b94399a7fc9f6e33a81
+      internalID: -1729824049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Anim_6
+      rect:
+        serializedVersion: 2
+        x: 6831
+        y: 0
+        width: 1059
+        height: 1057
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2271a5adb22234f4a83c740af3412d93
+      internalID: -535417644
       vertices: []
       indices: 
       edges: []
@@ -274,13 +274,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      210104_Coins_Flip [Converted]_0: -37499936
-      210104_Coins_Flip [Converted]_1: -651213951
-      210104_Coins_Flip [Converted]_2: 924765441
-      210104_Coins_Flip [Converted]_3: -1712322399
-      210104_Coins_Flip [Converted]_4: -1905691818
-      210104_Coins_Flip [Converted]_5: 113130803
-      210104_Coins_Flip [Converted]_6: 761822310
+      Coin_Anim_0: 327032363
+      Coin_Anim_1: 796596817
+      Coin_Anim_2: 1356788145
+      Coin_Anim_3: 235273362
+      Coin_Anim_4: -628967601
+      Coin_Anim_5: -1729824049
+      Coin_Anim_6: -535417644
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

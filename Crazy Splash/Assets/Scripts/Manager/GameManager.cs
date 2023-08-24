@@ -6,9 +6,9 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     public TMP_Text CoinText;
-    int money;
+    public static int money;
 
-    void Start()
+    void Update()
     {
         if(PlayerPrefs.HasKey("Coin"))
         {

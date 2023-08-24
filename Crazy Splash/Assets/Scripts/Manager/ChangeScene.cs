@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
+    public GameObject ShopMenu;
+
     public void ChangeToGame()
     {
         SceneManager.LoadScene("DuckSoup");
@@ -24,5 +26,13 @@ public class ChangeScene : MonoBehaviour
             Destroy(GameObject.FindGameObjectWithTag("Background"));
             RandomValue.randomValue = Random.Range(0, 3);
         }
+    }
+    public void ShopButton()
+    {
+        ShopMenu.SetActive(true);
+    }
+    public void BackButton()
+    {
+        ShopMenu.SetActive(false);
     }
 }
