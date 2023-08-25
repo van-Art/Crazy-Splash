@@ -13,8 +13,8 @@ public class ChangeScene : MonoBehaviour
     }
     public void Menu()
     {
-        SceneManager.LoadScene("Menu");
-        if (SceneManager.GetActiveScene().name == "Menu")
+        SceneManager.LoadScene("Main");
+        if (SceneManager.GetActiveScene().name == "Main")
             Debug.Log(SceneManager.GetActiveScene().name);
     }
 

@@ -10,5 +10,6 @@ public class BackgroundManager : MonoBehaviour
     void Start()
     {
         GameObject bg = Instantiate(bgObject[RandomValue.randomValue], transform.position, Quaternion.identity);
+        //bg.transform.localScale = new Vector3(0.5070087f, 0.5070087f, 0.5070087f);
     }
 }

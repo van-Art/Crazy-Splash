@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5696967777570698554}
   m_Layer: 9
   m_Name: Background_3 (6)
-  m_TagString: Untagged
+  m_TagString: childBackground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -162,7 +162,7 @@ GameObject:
   - component: {fileID: 5696967777769170712}
   m_Layer: 9
   m_Name: Background_3 (2)
-  m_TagString: Untagged
+  m_TagString: childBackground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -309,7 +309,7 @@ GameObject:
   - component: {fileID: 5696967777903847003}
   m_Layer: 9
   m_Name: Background_3
-  m_TagString: Untagged
+  m_TagString: childBackground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -456,7 +456,7 @@ GameObject:
   - component: {fileID: 5696967778194848298}
   m_Layer: 9
   m_Name: Background_3 (8)
-  m_TagString: Untagged
+  m_TagString: childBackground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -603,7 +603,7 @@ GameObject:
   - component: {fileID: 5696967778248285069}
   m_Layer: 9
   m_Name: Background_3 (1)
-  m_TagString: Untagged
+  m_TagString: childBackground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -750,7 +750,7 @@ GameObject:
   - component: {fileID: 5696967778261319702}
   m_Layer: 9
   m_Name: Background_3 (4)
-  m_TagString: Untagged
+  m_TagString: childBackground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -897,7 +897,7 @@ GameObject:
   - component: {fileID: 5696967778656764304}
   m_Layer: 9
   m_Name: Background_3 (7)
-  m_TagString: Untagged
+  m_TagString: childBackground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1044,7 +1044,7 @@ GameObject:
   - component: {fileID: 5696967778739836696}
   m_Layer: 9
   m_Name: Background_3 (5)
-  m_TagString: Untagged
+  m_TagString: childBackground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1191,7 +1191,7 @@ GameObject:
   - component: {fileID: 5696967779112539750}
   m_Layer: 9
   m_Name: Background_3 (3)
-  m_TagString: Untagged
+  m_TagString: childBackground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

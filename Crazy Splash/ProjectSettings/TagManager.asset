@@ -10,6 +10,7 @@ TagManager:
   - CoinB
   - Shark
   - Background
+  - childBackground
   layers:
   - Default
   - TransparentFX

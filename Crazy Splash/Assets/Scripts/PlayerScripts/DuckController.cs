@@ -7,15 +7,8 @@ public class DuckController : MonoBehaviour
 {
     public static DuckController instance;
 
-    //AddSkinsComp addSkin;
-
     public Vector2 startPos;
     public Rigidbody2D rb;
-
-    //[Header("Sprites")]
-    //SpriteRenderer rend;
-    //public Sprite DuckTopSide;
-    //public Sprite DuckBotSide;
 
     [Space]
     [Header("GameObjects")]
@@ -27,6 +20,7 @@ public class DuckController : MonoBehaviour
     [Header("UI Elements")]
     public TMP_Text score;
     public TMP_Text coin;
+    public TMP_Text collectedCoins;
 
     [Space]
     [Header("Variables")]
@@ -34,6 +28,8 @@ public class DuckController : MonoBehaviour
     public int speed = 8;
     public int count;
     public static int coinCount;
+
+    public bool gameOver;
 
     void Awake()
     {
@@ -45,10 +41,6 @@ public class DuckController : MonoBehaviour
     }
     void Start()
     {
-        //addSkin = GetComponent<AddSkinsComp>();
-
-        //rend = GetComponent<SpriteRenderer>();
-
         rb = GetComponent<Rigidbody2D>();
         rb.velocity = new Vector2(0, speed);
 
@@ -61,7 +53,7 @@ public class DuckController : MonoBehaviour
     }
     void Update()
     {
-
+        collectedCoins.text = coin.text;
     }
     void OnCollisionEnter2D(Collision2D col)
     {
@@ -111,6 +103,7 @@ public class DuckController : MonoBehaviour
         {
             this.gameObject.SetActive(false);
             UIManager.instance.StopAllCoroutines();
+            gameOver = true;
         }
     }
 }
