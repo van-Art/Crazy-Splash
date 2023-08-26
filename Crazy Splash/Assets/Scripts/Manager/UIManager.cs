@@ -30,7 +30,7 @@ public class UIManager : MonoBehaviour
     }
     void Start()
     {
-        
+        Application.targetFrameRate = 120;
     }
     void Update()
     {
