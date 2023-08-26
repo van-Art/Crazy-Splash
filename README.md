@@ -1,4 +1,6 @@
 # Crazy Splash
+<img align="left" height=110 width=110 src="https://github.com/van-Art/Crazy-Splash/assets/46049140/04588d7d-4fc2-4856-93fe-c2192ae14424">
+
 It's a fun little pass time game.
 </br>
 Crazy Splash is a water pong game with obstacles.
